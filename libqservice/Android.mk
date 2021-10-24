@@ -12,5 +12,6 @@ LOCAL_SRC_FILES               := QService.cpp \
                                  IQService.cpp \
                                  IQClient.cpp \
                                  IQHDMIClient.cpp
+LOCAL_STATIC_LIBRARIES        := libbase
 
 include $(BUILD_SHARED_LIBRARY)
